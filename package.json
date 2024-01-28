@@ -1,0 +1,20 @@
+{
+  "name": "cypressyoutube",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress-test-ui":"npx cypress open",
+    "playwright-test-ui":"npx playwright test --ui",
+    "cypress-test-headless":"npx cypress run",
+    "playwright-test-headless":"npx playwright test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.0",
+    "@playwright/test": "^1.41.1",
+    "@types/node": "^20.11.9",
+    "cypress": "^13.6.3"
+  }
+}
